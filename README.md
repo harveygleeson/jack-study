@@ -8,17 +8,17 @@ A Claude Code plugin that turns big textbook PDFs into a study library Claude ca
 ## How it works
 
 ```
-Study\                         ← Jack's folder; lives only on his computer, never in this repo
+Study/                         ← Jack's folder; lives only on his computer, never in this repo
   CLAUDE.md                    ← rules: look things up before answering, cite printed pages…
   progress.md                  ← exams, topics studied, quiz log, weak areas
-  notes\                       ← flashcards, quizzes, revision plans Claude writes
-  books\
+  notes/                       ← flashcards, quizzes, revision plans Claude writes
+  books/
     _library.md
-    guyton-14e\
+    guyton-14e/
       _index.md                ← chapter/section → file:line map, page-number rules
       _book-index.md           ← the book's own back-of-book index
       ch27-….md                ← one file per chapter, <!-- page 1160 | printed 1144 --> markers
-      figures\ch27\ch27-007.png
+      figures/ch27/ch27-007.png
       figures.json             ← figure manifest (caption, page, description)
       source.pdf               ← original, for rendering exact pages
 ```
