@@ -1,0 +1,15 @@
+{
+  "name": "study-library",
+  "description": "Converts textbook PDFs into a searchable Markdown library (with figures and page references) and adds study skills: quizzes, Anki flashcards, revision plans.",
+  "author": {
+    "name": "harveygleeson"
+  },
+  "keywords": [
+    "study",
+    "textbooks",
+    "medical",
+    "flashcards",
+    "anki",
+    "pdf"
+  ]
+}

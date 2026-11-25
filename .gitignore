@@ -1,0 +1,7 @@
+# Never commit textbooks or converted libraries (copyright + size)
+*.pdf
+books/
+Study/
+_cache/
+__pycache__/
+.venv/
